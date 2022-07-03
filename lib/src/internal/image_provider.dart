@@ -91,7 +91,10 @@ class FMTCImageProvider extends ImageProvider<FMTCImageProvider> {
 
       // Try to get a response from a server, throwing an error if not possible & the tile does not exist
       try {
-        serverData = await httpClient.get(Uri.parse(url));
+        serverData = await httpClient.get(
+          Uri.parse(url),
+          headers: options.tileProvider.headers,
+        );
       } catch (err) {
         if (needsCreating) {
           PaintingBinding.instance.imageCache.evict(this);
