@@ -23,7 +23,7 @@ allprojects {
         google()
         mavenCentral()
         maven {
-           url "${project(':background_fetch').projectDir}/libs"
+           //url "${project(':background_fetch').projectDir}/libs"
         }
     }
 }
