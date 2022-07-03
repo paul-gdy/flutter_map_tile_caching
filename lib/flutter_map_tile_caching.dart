@@ -9,9 +9,9 @@ library flutter_map_tile_caching;
 
 export 'dart:io' show Directory, File;
 
-export 'package:battery_info/enums/charging_status.dart';
-export 'package:connectivity_plus/connectivity_plus.dart'
-    show ConnectivityResult;
+//export 'package:battery_info/enums/charging_status.dart';
+//export 'package:connectivity_plus/connectivity_plus.dart'
+//    show ConnectivityResult;
 export 'package:watcher/watcher.dart' show ChangeType;
 
 export 'src/bulk_download/download_progress.dart';

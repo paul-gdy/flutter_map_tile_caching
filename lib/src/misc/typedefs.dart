@@ -52,7 +52,7 @@ import '../../fmtc_advanced.dart';
 /// // Called if the checks fail, otherwise download continues as normal (`callback()`)
 /// preDownloadChecksFailedCallback: () {}
 /// ```
-@Deprecated(
+/*@Deprecated(
   "`PreDownloadChecksCallback` (and it's related argument) have been deprecated without replacement or alternative. Usage will continue to function until the next minor release, at which time this functionality will be removed.",
 )
 typedef PreDownloadChecksCallback = Future<bool?> Function(
@@ -60,3 +60,4 @@ typedef PreDownloadChecksCallback = Future<bool?> Function(
   int?,
   ChargingStatus?,
 )?;
+*/

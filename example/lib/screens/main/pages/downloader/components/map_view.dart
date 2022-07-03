@@ -297,7 +297,7 @@ class _MapViewState extends State<MapView> {
     final DownloadProvider provider =
         Provider.of<DownloadProvider>(context, listen: false);
 
-    if (/*Provider.of<GeneralProvider>(context, listen: false).currentStore !=
+    /*if (/*Provider.of<GeneralProvider>(context, listen: false).currentStore !=
             null &&*/
         provider.region != null) {
       provider
@@ -309,7 +309,7 @@ class _MapViewState extends State<MapView> {
                 TileLayerOptions(),
               ),
             );
-    }
+    }*/
   }
 }
 

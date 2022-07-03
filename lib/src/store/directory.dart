@@ -79,7 +79,7 @@ class StoreDirectory {
       FMTCTileProvider(storeDirectory: this, settings: settings);
 
   /// Get tools to manage bulk downloading to this store
-  DownloadManagement get download => DownloadManagement(this);
+  //DownloadManagement get download => DownloadManagement(this);
 
   @override
   String toString() =>
